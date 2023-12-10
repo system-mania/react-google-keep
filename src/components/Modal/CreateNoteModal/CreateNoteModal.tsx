@@ -2,8 +2,7 @@ import dayjs from 'dayjs';
 import React, { useState } from 'react';
 import { FaPlus, FaTimes } from 'react-icons/fa';
 import { toast } from 'react-toastify';
-import { v4 } from 'uuid';
-import { useAppDispatch, useAppSelector } from '../../../hooks/redux';
+import { v4 } from 'uuid';import { useAppDispatch, useAppSelector } from '../../../hooks/redux';
 import {
   toggleCreateNoteModal,
   toggleTagsModal,

@@ -8,7 +8,6 @@ import getStandardName from '../../utils/getStandardName';
 import { toggleTagsModal } from '../../store/modal/modalSlice';
 import { MdEdit } from 'react-icons/md';
 import { v4 } from 'uuid';
-
 const items = [
   { icon: <FaArchive />, title: 'Archive', id: v4() },
   { icon: <FaTrash />, title: 'Trash', id: v4() },

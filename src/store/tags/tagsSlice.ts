@@ -1,7 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { toast } from 'react-toastify';
 import { v4 } from 'uuid';
-
 const initialState = {
   tagsList: [
     { tag: 'coding', id: v4() },

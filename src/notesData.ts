@@ -1,5 +1,4 @@
 import { v4 } from 'uuid';
-
 const notes = [
   {
     title: 'Note 1 title',
